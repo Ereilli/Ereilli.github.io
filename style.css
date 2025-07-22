@@ -141,3 +141,20 @@ footer ul {
   padding: 15px;
   border-radius: 8px;
 }
+.btn-download {
+  border-radius: 2px;
+  border: 0;
+  color: #fbd1d5;            /* pink text */
+  background-color: #ffffff; /* white background */
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: #fbd1d5; /* pink background on hover */
+  color: #ffffff;            /* white text on hover */
+}
